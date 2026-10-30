@@ -1,0 +1,17 @@
+# Private keys. Never commit. A key in git is a leaked key.
+*.key
+*.pem
+
+# Certificate files. Not secret, but per-client and they expire.
+*.csr
+*.crt
+*.cer
+*.ca-bundle
+*.p7b
+*.pfx
+*.p12
+*.zip
+
+# Local working folders
+ssl/
+.DS_Store
